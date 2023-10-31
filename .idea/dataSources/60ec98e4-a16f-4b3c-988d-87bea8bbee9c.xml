@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dataSource name="test2">
-  <database-model serializer="dbm" dbms="SQLITE" family-id="SQLITE" format-version="4.32">
+  <database-model serializer="dbm" dbms="SQLITE" family-id="SQLITE" format-version="4.48">
     <root id="1"/>
     <collation id="2" parent="1" name="RTRIM"/>
     <collation id="3" parent="1" name="NOCASE"/>
@@ -1286,23 +1286,23 @@
       <System>1</System>
     </table>
     <column id="474" parent="473" name="type">
-      <DataType>text|0s</DataType>
+      <DasType>text|0s</DasType>
       <Position>1</Position>
     </column>
     <column id="475" parent="473" name="name">
-      <DataType>text|0s</DataType>
+      <DasType>text|0s</DasType>
       <Position>2</Position>
     </column>
     <column id="476" parent="473" name="tbl_name">
-      <DataType>text|0s</DataType>
+      <DasType>text|0s</DasType>
       <Position>3</Position>
     </column>
     <column id="477" parent="473" name="rootpage">
-      <DataType>int|0s</DataType>
+      <DasType>int|0s</DasType>
       <Position>4</Position>
     </column>
     <column id="478" parent="473" name="sql">
-      <DataType>text|0s</DataType>
+      <DasType>text|0s</DasType>
       <Position>5</Position>
     </column>
   </database-model>
